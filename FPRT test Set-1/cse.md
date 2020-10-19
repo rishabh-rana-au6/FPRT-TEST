@@ -58,32 +58,40 @@ Answer 2 :-
 
 Difference between Paging and Segmentation:
 
-S.NO	                      PAGING	                                                      SEGMENTATION
-1.	In paging, program is divided into fixed or mounted size pages.       	1. In segmentation, program is divided into variable size sections.
+S.NO	                      PAGING	                                                      
+1.	In paging, program is divided into fixed or mounted size pages.       	
+2.	For paging operating system is accountable.                           	
+3.	Page size is determined by hardware.	                                
+4.	It is faster in the comparison of segmentation.	                       
+5.	Paging could result in internal fragmentation.	                        .
+6.	In paging, logical address is split into page number and page            
+    offset                                                                     
+7.	Paging comprises a page table which encloses the base address            
+    of every page.                                                              
+8.	Page table is employed to keep up the page data.	                   
+9.	In paging, operating system must maintain a free frame                  
+    list.  	                                                                  
+10.	Paging is invisible to the user.	                                   
+11.	In paging, processor needs page number, offset to calculate           
+    absolute address.	                                                       
 
-2.	For paging operating system is accountable.                           	2. For segmentation compiler is accountable.
 
-3.	Page size is determined by hardware.	                                3. Here, the section size is given by the user.
+SEGMENTATION
 
-4.	It is faster in the comparison of segmentation.	                        4. Segmentation is slow.
+1. In segmentation, program is divided into variable size sections.
+2. For segmentation compiler is accountable.
+3. Here, the section size is given by the user.
+4. Segmentation is slow.
+5. Segmentation could result in external fragmentation.
+6. Here, logical address is split into section number and section offset.
+7. While segmentation also comprises the segment table which encloses segment number and segment offset.
+8. Section Table maintains the section data.
+9. In segmentation, operating system maintain a list of holes in  main memory.
+10. Segmentation is visible to the user.
+11. In segmentation, processor uses segment number,offset to calculate full address.
 
-5.	Paging could result in internal fragmentation.	                        5. Segmentation could result in external fragmentation.
 
-6.	In paging, logical address is split into page number and page           6. Here, logical address is split into section number and section 
-    offset                                                                     offset.
- 	
-7.	Paging comprises a page table which encloses the base address            7. While segmentation also comprises the segment table which 
-    of every page.                                                              encloses segment number and segment offset.
 
-8.	Page table is employed to keep up the page data.	                    8. Section Table maintains the section data.
-
-9.	In paging, operating system must maintain a free frame                  9. In segmentation, operating system maintain a list of holes in
-    list.  	                                                                   main memory.
-
-10.	Paging is invisible to the user.	                                   10. Segmentation is visible to the user.
-
-11.	In paging, processor needs page number, offset to calculate            11. In segmentation, processor uses segment number,offset to 
-    absolute address.	                                                       calculate full address.
 
 Question 3 :- Explain the OOPS principles.
 
